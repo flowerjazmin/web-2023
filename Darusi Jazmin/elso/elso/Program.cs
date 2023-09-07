@@ -28,6 +28,45 @@ namespace elso
 
             int i = 0;
             Console.WriteLine(++i);
+
+            int b;
+            b = 5;
+            if (b > 2)
+            {
+                Console.WriteLine("Nagyobb");
+            }
+            else if(b < 2)
+            {
+                Console.WriteLine("Kisebb");
+            }
+            else if(b%2==0)
+            {
+                Console.WriteLine("Páros");
+            }
+            else
+            {
+                Console.WriteLine("Egyenlő");
+            }
+
+
+            switch(b)
+            {
+                case 1:
+                    Console.WriteLine("Egy");
+                    break;
+                case 2:
+                    Console.WriteLine("Ketto");
+                    break;
+                case 3:
+                    Console.WriteLine("Három");
+                    break;
+                case 4:
+                    Console.WriteLine("Négy");
+                    break;
+                default:
+                    Console.WriteLine("Valami más");
+                    break;
+            }
         }
     }
 }
