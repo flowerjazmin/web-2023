@@ -26,8 +26,8 @@ namespace elso
             Console.WriteLine((char)(a + 2));
             Console.WriteLine(10 / 3.0);
 
-            int i = 0;
-            Console.WriteLine(++i);
+            int t = 0;
+            Console.WriteLine(++t);
 
             int b;
             b = 5;
@@ -67,6 +67,66 @@ namespace elso
                     Console.WriteLine("Valami más");
                     break;
             }
+
+            double number = 1;
+            while (number<3)
+            {
+                Console.WriteLine(number);
+                number += .1;
+            }
+            do
+            {
+                number -= .2;
+                Console.WriteLine(number);
+            }
+            while (number > 2);
+
+            char az = 'a';
+            while(az <= 'z')
+            {
+                Console.Write(az);
+                az = (char)(az + 1);
+            }
+            Console.WriteLine();
+
+            int n = 32;
+            while (n <= 250)
+            {
+                Console.Write((char)n+"  ");
+                if (n % 8 == 7)
+                {
+                    Console.WriteLine();
+                }
+                n++;
+
+                
+            }
+            Console.WriteLine();
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            int szamol = 0;
+            for (int i = 100; i <=999 ; i++)
+            {
+                szamol += i;
+            }
+            Console.WriteLine(szamol);
+
+
+            for (int i = 9; i >= 0; i--)
+            {
+                Console.WriteLine(i);
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(9 - i);
+            }
+
+
         }
     }
 }
