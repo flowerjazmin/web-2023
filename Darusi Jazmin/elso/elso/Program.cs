@@ -127,6 +127,38 @@ namespace elso
             }
 
 
+            
+
+            for (int i = 10; i <= 99; i++)
+            {
+                if(i%5==0)
+                {
+                    Console.WriteLine(i + " : ");
+                }
+            }
+            Console.WriteLine();
+
+            for (int i = 10; i < 100; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    Console.WriteLine(i + " : ");
+                }
+            }
+
+            for (int i = 10; i < 100; i+=5)
+            {
+                if (i % 5 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
+            
+
+
+
+
         }
     }
 }
