@@ -164,11 +164,11 @@ namespace gyakorlas
             Console.WriteLine();
             Console.WriteLine();
             */
-
+            /*
             int oszto = 0;
             Console.Write("Kérek egy számot: ");
             oszto = Convert.ToInt32(Console.ReadLine());
-
+            */
             /*
             for (int i = 10000; i <= 99999; i++)
             {
@@ -211,7 +211,7 @@ namespace gyakorlas
                 }
             }
             */
-
+            /*
             int tizedik = 0;
             for (int i = 10000; i <= 99999; i++)
             {
@@ -268,7 +268,41 @@ namespace gyakorlas
                     }
                 }
             }
-            
+            */
+
+
+            /*
+            double hm = 1;
+            while (hm % 1.2 >= 0.001)
+            {
+                Console.Write("Kérek egy számot: ");
+                hm = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine(hm % 1.2);
+            }
+
+            hm = Convert.ToInt32(hm);
+
+            for (int i = 2; i <= hm / 2; i++)
+            {
+                if (hm % i == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            */
+
+
+
+
+
+
+            for (double i = -10; i <= 10; i += 0.1)
+            {
+                //Console.WriteLine(i);
+                Console.WriteLine(((int)(i*10))/10.0);
+            }
+
+
         }
     }
 }
