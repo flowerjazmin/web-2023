@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -294,13 +295,155 @@ namespace gyakorlas
 
 
 
-
-
+            
+            double x = 0;
             for (double i = -10; i <= 10; i += 0.1)
             {
                 //Console.WriteLine(i);
-                Console.WriteLine(((int)(i*10))/10.0);
+                x = ((int)(i * 10)) / 10.0;
+                Console.WriteLine(((((x * x) + (3 * x)) / 9) - 5 * (x * x) - (6 * (9 - x)) / 2 + 12 + 6 * (1 / (((x * x) + 1) * ((x * x) + 1)) - 12 * x)));
             }
+
+
+            //1. feladat
+            /*
+            int szam1 = 0;
+            int szam2 = 0;
+            int szam3 = 0;
+            int nagyobb = 0;
+            Console.Write("Kérek egy számot: ");
+            szam1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérek egy másik számot: ");
+            szam2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérek egy harmadik számot: ");
+            szam3 = Convert.ToInt32(Console.ReadLine());
+
+            if (szam1 > szam2)
+            {
+                if (szam1 > szam3) 
+                {
+                    Console.WriteLine(szam1);
+                }
+                else 
+                {
+                    Console.WriteLine(szam3);
+                }
+            }
+            else
+            {
+                if (szam2 > szam3) 
+                {
+                    Console.WriteLine(szam2);
+                }
+                else
+                { 
+                    Console.WriteLine(szam3);
+                }
+            }
+            */
+
+
+
+            /*
+            if (szam1 > szam2)
+            {
+                nagyobb = szam1;
+            }
+            else if (szam1 > szam3)
+            {
+                nagyobb = szam1;
+            }
+            else if (szam2 > szam1)
+            {
+                nagyobb = szam2;
+            }
+            else if (szam2 > szam3)
+            {
+                nagyobb = (szam2);
+            }
+            else if (szam3 > szam1)
+            {
+                nagyobb = (szam3);
+            }
+            else
+            {
+                nagyobb = szam3;
+            }
+            Console.WriteLine(nagyobb);
+            */
+
+
+
+
+
+            //2. feladat
+            /*
+            int szam = 0;
+            string word = "";
+            Console.Write("Kérek egy számot: ");
+            szam = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérek egy betűt: ");
+            word = Console.ReadLine();
+
+            for (int i = 0; i <= szam; i++)
+            {
+                Console.Write(word + " ");
+            }
+            Console.WriteLine();
+            */
+
+
+
+            //3. feladat
+            /*
+            int szam1 = 0;
+            int szam2 = 0;
+            Console.Write("Kérek egy számot: ");
+            szam1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérek egy másik számot: ");
+            szam2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("A számok négyzeteinek összege: "+((szam1*szam1)+(szam2*szam2)));
+            */
+
+
+
+            //4. feladat
+            /*
+            int szam1 = 0;
+            int szam2 = 0;
+            int kisebb = 0;
+            int nagyobb = 0;
+            Console.Write("Kérek egy számot: ");
+            szam1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérek egy másik számot: ");
+            szam2 = Convert.ToInt32(Console.ReadLine());
+
+            if (szam1 > szam2)
+            {
+                kisebb = szam2;
+            }
+            else
+            {
+                kisebb = szam1;
+            }
+
+            if (szam1 > szam2)
+            {
+                nagyobb = szam1;
+            }
+            else
+            {
+                nagyobb = szam2;
+            }
+
+            int ossz = 0;
+            for (int i=kisebb;i<=nagyobb;i++)
+            {
+                ossz += i * i;
+            }
+            Console.WriteLine(ossz);
+            */
 
 
         }
