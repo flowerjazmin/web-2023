@@ -1,0 +1,14 @@
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\bin\Debug\net7.0\gyakigyak.exe
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\bin\Debug\net7.0\gyakigyak.deps.json
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\bin\Debug\net7.0\gyakigyak.runtimeconfig.json
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\bin\Debug\net7.0\gyakigyak.dll
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\bin\Debug\net7.0\gyakigyak.pdb
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\obj\Debug\net7.0\gyakigyak.GeneratedMSBuildEditorConfig.editorconfig
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\obj\Debug\net7.0\gyakigyak.AssemblyInfoInputs.cache
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\obj\Debug\net7.0\gyakigyak.AssemblyInfo.cs
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\obj\Debug\net7.0\gyakigyak.csproj.CoreCompileInputs.cache
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\obj\Debug\net7.0\gyakigyak.dll
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\obj\Debug\net7.0\refint\gyakigyak.dll
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\obj\Debug\net7.0\gyakigyak.pdb
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\obj\Debug\net7.0\gyakigyak.genruntimeconfig.cache
+D:\Helyi_munkakönyvtár\web-2023\Darusi Jazmin\gyakigyak\gyakigyak\obj\Debug\net7.0\ref\gyakigyak.dll
